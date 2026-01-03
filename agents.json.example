@@ -1,0 +1,101 @@
+{
+  "agents": [
+    {
+      "name": "Claude (Opus)",
+      "type": "claude",
+      "model": "opus",
+      "enabled": true,
+      "web_access": true,
+      "code_only": false,
+      "context_limit": 200000
+    },
+    {
+      "name": "Gemini (3 Pro)",
+      "type": "gemini",
+      "model": "gemini-3-pro-preview",
+      "enabled": true,
+      "web_access": true,
+      "code_only": false,
+      "context_limit": 1000000
+    },
+    {
+      "name": "Codex (GPT-5.2)",
+      "type": "codex",
+      "model": "gpt-5.2",
+      "enabled": true,
+      "web_access": true,
+      "code_only": false,
+      "context_limit": 200000
+    },
+    {
+      "name": "DeepSeek V3",
+      "type": "aider",
+      "model": "openrouter/deepseek/deepseek-chat-v3-0324",
+      "enabled": true,
+      "web_access": false,
+      "code_only": false,
+      "context_limit": 131072,
+      "notes": "131K context via OpenRouter"
+    },
+    {
+      "name": "Qwen3 Coder",
+      "type": "aider",
+      "model": "openrouter/qwen/qwen3-coder",
+      "enabled": true,
+      "web_access": false,
+      "code_only": true,
+      "context_limit": 262144,
+      "notes": "262K context via OpenRouter"
+    },
+    {
+      "name": "Mistral Large 3",
+      "type": "aider",
+      "model": "openrouter/mistralai/mistral-large-2512",
+      "enabled": true,
+      "web_access": false,
+      "code_only": false,
+      "context_limit": 262144,
+      "notes": "262K context via OpenRouter"
+    },
+    {
+      "name": "Grok 4.1",
+      "type": "aider",
+      "model": "openrouter/x-ai/grok-4.1-fast",
+      "enabled": true,
+      "web_access": false,
+      "code_only": false,
+      "context_limit": 500000,
+      "notes": "500K+ context via OpenRouter"
+    },
+    {
+      "name": "Llama 4 Maverick",
+      "type": "aider",
+      "model": "openrouter/meta-llama/llama-4-maverick",
+      "enabled": true,
+      "web_access": false,
+      "code_only": false,
+      "context_limit": 1000000,
+      "notes": "1M+ context via OpenRouter"
+    },
+    {
+      "name": "Codestral",
+      "type": "aider",
+      "model": "openrouter/mistralai/codestral-2508",
+      "enabled": true,
+      "web_access": false,
+      "code_only": true,
+      "context_limit": 256000,
+      "notes": "256K context, Mistral's dedicated code model"
+    },
+    {
+      "name": "Grok Code",
+      "type": "aider",
+      "model": "openrouter/x-ai/grok-code-fast-1",
+      "enabled": true,
+      "web_access": false,
+      "code_only": true,
+      "context_limit": 256000,
+      "notes": "256K context, xAI code-specialized"
+    }
+  ]
+}
