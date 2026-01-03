@@ -40,7 +40,7 @@ export OPENROUTER_API_KEY="sk-or-..."      # For Aider models (DeepSeek, Mistral
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/multi-agent-compare.git
+   git clone https://github.com/David-Marsh-Photo/multi-agent-compare.git
    cd multi-agent-compare
    ```
 
@@ -227,4 +227,4 @@ Contributions welcome! Please open an issue or PR.
 
 ## Credits
 
-Built by [@davidmarsh](https://github.com/davidmarsh) for use with Claude Code.
+Built by [@David-Marsh-Photo](https://github.com/David-Marsh-Photo) for use with Claude Code.
